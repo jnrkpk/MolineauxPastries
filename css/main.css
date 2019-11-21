@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+div.top {
+    height: 100px;
+    background-color: brown;
+    color: white;
+}
+
+div.top h4 {
+    margin: 0;
+}
+
+div.bottom {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.bottom div.divthree {
+    width: 30%;
+}
+
+div.bottom div.divthree img {
+    max-width: 100%;
+}
+
+div.bottom div.divfour {
+    width: 30%;
+}
+
+div.bottom div.divfive {
+    width: 40%;
+}
+
+div.bottom div.divfive table,
+th,
+td {
+    border: 1px solid black;
+}
